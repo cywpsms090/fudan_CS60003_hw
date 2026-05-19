@@ -1,0 +1,28 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+# Large datasets and downloaded assets
+data/
+EuroSAT_RGB/
+*.tar.gz
+*.zip
+
+# Model weights and training artifacts
+*.pt
+*.onnx
+*.engine
+*.npz
+runs/
+swanlog/
+
+# Local videos and generated tracking outputs
+videos/*.mp4
+outputs/*.mp4
+
+# Keep report figures and lightweight CSVs if needed, but ignore transient preview frames
+outputs/preview_frames/
+
+# Local PDFs can be regenerated/uploaded separately
+*.pdf
