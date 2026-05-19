@@ -1,0 +1,115 @@
+{
+  "config": {
+    "image_size": 16,
+    "hidden_dim1": 256,
+    "hidden_dim2": 128,
+    "learning_rate": 0.03,
+    "batch_size": 512,
+    "epochs": 20,
+    "seed": 42,
+    "max_per_class": 0
+  },
+  "dataset": {
+    "num_samples": 27000,
+    "num_classes": 10,
+    "train_samples": 18900,
+    "val_samples": 4050,
+    "test_samples": 4050,
+    "class_names": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ]
+  },
+  "metrics": {
+    "best_epoch": 19,
+    "train_loss": 0.9920915961265564,
+    "train_accuracy": 0.6591534391534392,
+    "val_loss": 1.1146515607833862,
+    "val_accuracy": 0.6133333333333333,
+    "test_loss": 1.080652117729187,
+    "test_accuracy": 0.6177777777777778,
+    "macro_precision": 0.6144865800142146,
+    "macro_recall": 0.6183777777777778,
+    "macro_f1": 0.6122724299796862
+  },
+  "per_class_metrics": [
+    {
+      "class_name": "AnnualCrop",
+      "precision": 0.5328798185941043,
+      "recall": 0.5222222222222223,
+      "f1": 0.5274971941638609,
+      "support": 450.0
+    },
+    {
+      "class_name": "Forest",
+      "precision": 0.843501326259947,
+      "recall": 0.7066666666666667,
+      "f1": 0.7690447400241838,
+      "support": 450.0
+    },
+    {
+      "class_name": "HerbaceousVegetation",
+      "precision": 0.5243362831858407,
+      "recall": 0.5266666666666666,
+      "f1": 0.5254988913525499,
+      "support": 450.0
+    },
+    {
+      "class_name": "Highway",
+      "precision": 0.424812030075188,
+      "recall": 0.30133333333333334,
+      "f1": 0.3525741029641186,
+      "support": 375.0
+    },
+    {
+      "class_name": "Industrial",
+      "precision": 0.8061224489795918,
+      "recall": 0.8426666666666667,
+      "f1": 0.8239895697522815,
+      "support": 375.0
+    },
+    {
+      "class_name": "Pasture",
+      "precision": 0.6143617021276596,
+      "recall": 0.77,
+      "f1": 0.6834319526627218,
+      "support": 300.0
+    },
+    {
+      "class_name": "PermanentCrop",
+      "precision": 0.5387205387205387,
+      "recall": 0.4266666666666667,
+      "f1": 0.47619047619047616,
+      "support": 375.0
+    },
+    {
+      "class_name": "Residential",
+      "precision": 0.5231316725978647,
+      "recall": 0.6533333333333333,
+      "f1": 0.5810276679841897,
+      "support": 450.0
+    },
+    {
+      "class_name": "River",
+      "precision": 0.5656324582338902,
+      "recall": 0.632,
+      "f1": 0.596977329974811,
+      "support": 375.0
+    },
+    {
+      "class_name": "SeaLake",
+      "precision": 0.7713675213675214,
+      "recall": 0.8022222222222222,
+      "f1": 0.7864923747276688,
+      "support": 450.0
+    }
+  ]
+}

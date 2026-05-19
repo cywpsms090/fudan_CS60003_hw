@@ -1,0 +1,11 @@
+class_name,total,train,val,test
+AnnualCrop,3000,2100,450,450
+Forest,3000,2100,450,450
+HerbaceousVegetation,3000,2100,450,450
+Highway,2500,1750,375,375
+Industrial,2500,1750,375,375
+Pasture,2000,1400,300,300
+PermanentCrop,2500,1750,375,375
+Residential,3000,2100,450,450
+River,2500,1750,375,375
+SeaLake,3000,2100,450,450
