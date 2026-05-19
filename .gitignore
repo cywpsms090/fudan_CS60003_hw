@@ -3,6 +3,9 @@
 __pycache__/
 *.pyc
 
+# Personal study notes, not part of submission
+docs/
+
 # Large datasets and downloaded assets
 data/
 EuroSAT_RGB/
